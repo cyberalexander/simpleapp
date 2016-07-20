@@ -9,23 +9,29 @@ p {
     font-size: 12pt;
     text-align: justify;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-family: Arial, sans-serif;
 }
+
 h1 {
     font-size: 20pt;
 }
+
 h2 {
     font-size: 18pt;
 }
+
 h6 {
     font-size: 12pt;
 }
+
 blockquote p, address {
     font-size: 10pt;
     font-style: italic;
 }
+
 table {
     font-size: 10pt;
     margin: 10px 0;
@@ -33,24 +39,30 @@ table {
     border: thin solid #B1BEC6;
     border-collapse: collapse;
 }
+
 caption {
     text-align: left;
 }
+
 th, td {
-    text-align: center;
+    /*text-align: center;*/
     vertical-align: middle;
     border: thin dotted #B1BEC6;
     padding: 2px;
 }
+
 address {
     text-align: right;
 }
+
 ul {
     list-style-type: circle;
 }
+
 dfn {
     outline: thin dotted #B1BEC6;
 }
+
 #navbar {
     font-family: Arial, sans-serif;
     font-size: 14pt;
@@ -58,10 +70,11 @@ dfn {
     list-style-type: none;
     margin-left: -30px;
 }
+
 #navbar li {
     cursor: pointer;
     padding: 5px 10px;
-    margin: 10px 0;
+    margin: 10px 0px;
     border: thin solid #B1BEC6;
 }
 
@@ -70,12 +83,15 @@ dfn {
     margin-left: -20px;
     margin-top: 10px;
 }
+
 #navbar li ul li {
     font-size: 12pt;
-    padding: 0;
-    margin: 0;
-    border-style: none;
+    padding: 2px;
+    margin: 0px 0px;
+    border: thin solid #F8F8F8;
+    cursor: pointer;
 }
+
 #cheader {
     width: 1210px;
     padding: 0 20px;
@@ -109,4 +125,62 @@ dfn {
 #address {
     float: right;
 }
+
+a:link {
+    color: #576C8C;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A1AFBA;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #576C8C;
+    text-decoration: underline;
+}
+
+#navbar a:link,
+#navbar a:visited {
+    color: #576C8C;
+    text-decoration: none;
+}
+
+#navbar A:focus,
+#navbar A:hover,
+#navbar A:active {
+    color: #576C8C;
+    text-decoration: underline;
+}
+
+#cmain > p:first-child:first-letter {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.table-html-versions TD:first-child,
+.table-html-versions TD:nth-child(2) {
+    text-align: center;
+}
+
+.hovered {
+    border-color: #3B4043 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

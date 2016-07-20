@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>HTML vocabulary</title>
     <link rel="stylesheet" href="./style/main.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>
 </head>
 <body>
     <div id="cheader">
@@ -73,6 +74,12 @@
         </p>
         <p><a href="https://www.w3.org/"><img src="images/w3c.jpeg"/></a></p>
         <hr>
+        <script>
+            var dNow = new Date();
+            var sNow = dNow.getDate() + "." + dNow.getMonth() + "." + dNow.getFullYear();
+            document.write(sNow);
+        </script>
+        <hr>
         <p>Русская Википедия определяет термин HTML так:</p>
         <blockquote>
             <P>
@@ -83,7 +90,7 @@
         </blockquote>
         <p>Пожалуй, ни убавить ни прибавить...</p>
         <hr>
-        <table>
+        <table class="table-html-versions">
             <caption>Список версий HTML:</caption>
             <thead>
             <tr>
@@ -159,5 +166,6 @@
             </div>
         </address>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
